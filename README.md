@@ -1,5 +1,4 @@
 # ディジタル信号処理と画像処理
-B174463 今井 悠太  
   
 プログラム  
 ```python
@@ -35,8 +34,26 @@ plt.ylim([ave_y-5, ave_y +5])
 plt.title("Finger blood flow")
 plt.savefig('Finger.pdf')
 plt.show()
-```
-
-
+```  
+  
+実行方法
+  - cv2.VideoCapture(0)において，０はカメラ番号．パソコンのカメラを起動させて，取得を開始する．
+  - cam.read()で画像の読み込み．Enterボタンを押すことで画像を取得する．
+  - cv2.imshow('PUSH ENTER KEY', img)で画像を出力．
+  - cam.release()でキャプチャを終了．
+  - cv2.destroyAllWindows()でウィンドを閉じる．
+  
+ライブラリ
+  - matplotlib：グラフの表示をするため．
+  - numpy:array型変数の格納のため．
+  - cv2:Opencvの利用のため．
+  
+実行環境
+  - python 3.7.3
+  - Opencv 3.4.2
+  - Xcode 10.1
+　　
 参考にしたサイトのURL
   - 「OpenCV-画像の統計量を計算する」http://pynote.hatenablog.com/entry/opencv-image-statics
+  - 「OpenCVによるUSBカメラ画像の取得」https://qiita.com/vs4sh/items/4a9ce178f1b2fd26ea30
+  - 「OpenCVで動画を扱う」https://code-graffiti.com/connect-with-webcam-using-opencv-in-python/
