@@ -37,7 +37,7 @@ plt.show()
 ```  
 
 実行画像　　
-![Finger](Finger.jpg)
+![Finger](Finger.png)
 
 実行環境
   - python 3.7.3
