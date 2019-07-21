@@ -64,4 +64,4 @@ plt.show()
   - 「OpenCVで動画を扱う」https://code-graffiti.com/connect-with-webcam-using-opencv-in-python/
     - カメラの接続・画像の取得・デバイスの解放の方法を参考にした．
   - 「pythonライブラリ一覧」https://docs.python.org/ja/3/library/index.html
-    -各ライブラリの詳細を検索した．
+    - 各ライブラリの詳細を検索した．
