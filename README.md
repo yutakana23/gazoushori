@@ -36,6 +36,8 @@ plt.savefig('Finger.pdf')
 plt.show()
 ```  
 
+実行画像　　
+
 実行環境
   - python 3.7.3
   - Opencv 3.4.2
@@ -55,5 +57,10 @@ plt.show()
   
 参考にしたサイトのURL
   - 「OpenCV-画像の統計量を計算する」http://pynote.hatenablog.com/entry/opencv-image-statics
+    - 平均値の部分のみ参照
   - 「OpenCVによるUSBカメラ画像の取得」https://qiita.com/vs4sh/items/4a9ce178f1b2fd26ea30
+    - C++での表記であるが，各メソッドを参照した．（VideoCapture(0)など）
   - 「OpenCVで動画を扱う」https://code-graffiti.com/connect-with-webcam-using-opencv-in-python/
+    - カメラの接続・画像の取得・デバイスの解放の方法を参考にした．
+  - 「pythonライブラリ一覧」https://docs.python.org/ja/3/library/index.html
+    -各ライブラリの詳細を検索した．
